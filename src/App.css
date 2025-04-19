@@ -1,0 +1,111 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  justify-content: center;
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  text-align: center;
+  padding: 30px 10px;
+  background-color: #fff;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+.navbar p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.navbar a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.section {
+  padding: 30px 0;
+}
+
+.gray-bg {
+  background-color: #f0f2f5;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 20px 0;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #34495e;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background-color: #e3f2fd;
+  color: #1565c0;
+  padding: 8px 12px;
+  border-radius: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  cursor: default;
+}
+
+.skill:hover {
+  background-color: #bbdefb;
+  transform: scale(1.05);
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card ul {
+  margin: 10px 0 0 20px;
+}
+
+.card p {
+  margin: 6px 0;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  color: #888;
+  font-size: 0.9rem;
+}
